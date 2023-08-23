@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_notify_title">संदेश</string>
+    <string name="app_name_main">वाक् टू टेक्स्ट</string>
+    <string name="splash_title">इस कार्रवाई में विज्ञापन हो सकते हैं</string>
+    <!-- TODO: प्लेसहोल्डर पाठ को हटाएं या बदलें -->
+    <string name="hello_blank_fragment">नमस्ते खाली फ्रैगमेंट</string>
+    <string name="langToTransTitile">भाषा चुनें</string>
+    <string name="langToTransBtnBack">रद्द करें</string>
+    <string name="saved_successfully">सफलतापूर्वक सहेजा गया!</string>
+    <string name="per_title">अनुमति</string>
+    <string name="per_content">वाक्य-से-पाठ अनुमति की आवश्यकता होती है ताकि डिवाइस की कैमरा और फ़ोल्डर का उपयोग किया जा सके।</string>
+    <string name="per_storage">स्टोरेज</string>
+    <string name="per_camera">कैमरा</string>
+    <string name="per_go">जाएं</string>
+    <string name="text_translate">अनुवाद करें</string>
+    <string name="title_photo">फ़ोटो</string>
+    <string name="setting_title">सेटिंग्स</string>
+    <string name="setting_language_options">भाषा विकल्प</string>
+    <string name="setting_rate_us">हमें रेट करें</string>
+    <string name="setting_about">बारे में</string>
+    <string name="setting_share">मित्रों के साथ साझा करें</string>
+    <string name="setting_privacy">गोपनीयता नीति</string>
+
+    <string name="screen_1">वाक्य से टेक्स्ट</string>
+    <string name="screen_2">टेक्स्ट से टेक्स्ट</string>
+
+    <string name='string_home'>होम</string>
+    <string name='string_speak_to_text'>ध्वनि अनुवाद</string>
+    <string name='string_text_to_text'>पाठ का अनुवाद</string>
+    <string name='string_start'>प्रारंभ करें</string>
+
+    <string name='intro_title_1'>दुनिया को जोड़ना</string>
+    <string name = "intro_content_1"> पाठ, भाषण और यहां तक कि छवियों का अनुवाद केवल उड़ता है</string>
+
+    <string name='intro_title_2'>व्यापक भाषा समर्थन</string>
+    <string name='intro_content_2'>वस्तुतः कोई भी भाषा बोलें और समझें</string>
+
+    <string name='intro_title_3'>उपयोगकर्ता-अनुकूल इंटरफ़ेस</string>
+    <string name = "intro_content_3">सरल, सहज और नेविगेट करने में आसान - हमारा ऐप आपको ध्यान में रखकर बनाया गया है</string>
+
+    <string name='btn_rate'>दर</string>
+    <string name='btn_exit'>बाहर निकलें</string>
+
+    <string name='title_rate_0'>क्या आपको ऐप पसंद है?</string>
+    <string name='content_rate_0'>हमें अपना अनुभव बताएं</string>
+
+    <string name='title_rate_1_2_3'>ओह, नहीं!</string>
+    <string name='content_rate_1_2_3'>कृपया हमें कुछ प्रतिक्रिया दें</string>
+
+    <string name='title_rate_4_5'>हम भी आपसे प्यार करते हैं!</string>
+    <string name='content_rate_4_5'>आपके फ़ीडबैक के लिए धन्यवाद</string>
+    <string name="tap_to_speak_v2">बोलने के लिए टैप करें</string>
+
+    <string name="string_next">अगला</string>
+    <string name="string_thank_you_for_rating_the_app">ऐप को रेटिंग देने के लिए धन्यवाद!</string>
+    <string name="language_title">भाषा</string>
+
+    <string name="string_translate_for_you_today">आज आपके लिए मैं क्या अनुवाद कर सकता हूँ?</string>
+    <string name="title_text_translation">टेक्स्ट अनुवाद</string>
+    <string name="title_voice_translation">आवाज़ अनुवाद</string>
+    <string name="title_change_language">भाषा बदलें</string>
+    <string name="text_loading">फ़ाइल डाउनलोड करने में एक मिनट का इंतजार करें</string>
+
+</resources>

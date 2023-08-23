@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_nav"
+        android:title="@string/string_home" />
+    <item
+        android:id="@+id/text_translate"
+        android:icon="@drawable/ic_text_nav"
+        android:title="@string/string_text_to_text" />
+    <item
+        android:id="@+id/voice_translate"
+        android:icon="@drawable/ic_voice_input_nav"
+        android:title="@string/string_speak_to_text" />
+    <item android:title="Settings"
+        >
+        <menu>
+            <item
+                android:id="@+id/change_language"
+                android:icon="@drawable/ic_earth_nav"
+                android:title="@string/title_change_language" />
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_rating_nav"
+                android:title="@string/setting_rate_us" />
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/ic_policy_nav"
+                android:title="@string/setting_privacy" />
+        </menu>
+    </item>
+
+
+
+</menu>

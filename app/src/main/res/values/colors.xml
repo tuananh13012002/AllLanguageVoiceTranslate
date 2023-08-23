@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryColor">#3650FD</color>
+    <color name="primaryLightColor">#ff9e5d</color>
+    <color name="primaryDarkColor">#c53a00</color>
+
+    <color name="primaryTextColor">#000000</color>
+    <color name="error_color">@android:color/holo_red_light</color>
+    <color name="light_text_color">#FFFFFFFF</color>
+    <color name="text_color">#333333</color>
+    <color name="hint_text_color">#B7B7B7</color>
+    <color name="regular_price_color">#cbcbcb</color>
+    <color name="inactive_text_color">#8D8D8D</color>
+    <color name="background_splash_color">#FF6C2F</color>
+
+    <color name="background_header_color">@color/primaryColor</color>
+
+    <color name="icon_color_bottom_normal">@color/primaryLightColor</color>
+    <color name="icon_color_bottom_selected">@color/primaryColor</color>
+
+
+    <color name="icon_color_normal">#B7B7B7</color>
+    <color name="dot_indicator">#C5C5C5</color>
+    <color name="selected_dot">#3650FD</color>
+
+    <color name="blue">#6baeff</color>
+    <color name="border_gray">#9C9898</color>
+    <color name="button_tap_to_speak">#BB6BDB</color>
+    <color name="text_base">#838383</color>
+    <color name="bg_switch_lag">#ECD6F5</color>
+    <color name="menu_bottom">#DEDEDE</color>
+    <color name="top_menu">#BC72DB</color>
+    <color name="bg_button">#C078DE</color>
+
+    <color name="color_title_settings">#4B4B4B</color>
+    <color name="color_text_settings">#323232</color>
+    <color name="color_bg_settings">#EFFAFF</color>
+
+    <color name="color_main">#3650FD</color>
+
+</resources>

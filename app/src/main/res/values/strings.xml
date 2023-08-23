@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Speak to Text</string>
+
+    <string name="app_name_main">Speak to Text</string>
+
+    <string name="default_notify_title">Message</string>
+    <string name="splash_title">This action can contain ads</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="langToTransTitile">Choose Language</string>
+    <string name="langToTransBtnBack">Cancel</string>
+    <string name="saved_successfully">Saved Successfully!</string>
+    <string name="per_title">Permission</string>
+    <string name="per_content">Speak to text requires permission to use the {device’s camera and folder}</string>
+    <string name="per_storage">Storage</string>
+    <string name="per_camera">Camera</string>
+    <string name="per_go">Go</string>
+    <string name="text_translate">Translate</string>
+    <string name="title_photo">PHOTO</string>
+    <string name="setting_title">Settings</string>
+    <string name="setting_language_options">Language Options</string>
+    <string name="setting_rate_us">Rate Us</string>
+    <string name="setting_about">About</string>
+    <string name="setting_share">Share wwith Friends</string>
+    <string name="setting_privacy">Privacy Policy</string>
+
+    <string name="screen_1">Speak to Text</string>
+    <string name="screen_2">Text to Text</string>
+
+    <string name="string_home">Home</string>
+    <string name="string_speak_to_text">Voice Translate</string>
+    <string name="string_text_to_text">Text Translate</string>
+    <string name="string_start">Start</string>
+
+    <string name="intro_title_1">Connecting the World</string>
+    <string name="intro_content_1">Translate text, Speech and  even images only fly</string>
+
+    <string name="intro_title_2">Extensive Language Support</string>
+    <string name="intro_content_2">Speak and understand virtually any language</string>
+
+    <string name="intro_title_3">User-Friendly Interface</string>
+    <string name="intro_content_3">Simple, intuitive, and easy-to-navigate – our app is designed with you in mind</string>
+
+    <string name="btn_rate">Rate</string>
+    <string name="btn_exit">Exit</string>
+
+    <string name="title_rate_0">Do you like the app?</string>
+    <string name="content_rate_0">Let us know your experience</string>
+
+    <string name="title_rate_1_2_3">Oh, no!</string>
+    <string name="content_rate_1_2_3">Please give us some feedback</string>
+
+    <string name="title_rate_4_5">We love you too!</string>
+    <string name="content_rate_4_5">Thanks for your feedback</string>
+
+    <string name="tap_to_speak_v2">Tap to speak</string>
+
+    <string name="string_next">Next</string>
+    <string name="string_thank_you_for_rating_the_app">Thank you for rating the app!</string>
+    <string name="language_title">Language</string>
+
+    <string name="string_translate_for_you_today">What can I translate for you today?</string>
+    <string name="title_text_translation">Text Translation</string>
+    <string name="title_voice_translation">Voice Translation</string>
+    <string name="title_change_language">Change Language</string>
+
+    // admob
+    <string name="facebook_app_id" translatable="false"></string>
+    <string name="facebook_client_token" translatable="false"></string>
+    <string name="app_flyer" translatable="false">LikYKU2zUYTct7BoQ7MuJY</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="text_loading">This wait a minute to download the file</string>
+
+</resources>

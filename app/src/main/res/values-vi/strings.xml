@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_notify_title">Thông báo</string>
+    <string name="app_name_main">Nói thành văn bản</string>
+    <string name="splash_title">Hành động này có thể chứa quảng cáo</string>
+    <!-- TODO: Xóa hoặc thay đổi văn bản giữ chỗ này -->
+    <string name="hello_blank_fragment">Chào mục trống</string>
+    <string name="langToTransTitile">Chọn Ngôn Ngữ</string>
+    <string name="langToTransBtnBack">Hủy bỏ</string>
+    <string name="saved_successfully">Đã Lưu Thành Công!</string>
+    <string name="per_title">Quyền Truy Cập</string>
+    <string name="per_content">Speak to text cần quyền truy cập vào máy ảnh và thư mục của thiết bị</string>
+    <string name="per_storage">Bộ Nhớ</string>
+    <string name="per_camera">Máy Ảnh</string>
+    <string name="per_go">Tiếp Tục</string>
+    <string name="text_translate">Dịch</string>
+    <string name="title_photo">HÌNH ẢNH</string>
+    <string name="setting_title">Cài Đặt</string>
+    <string name="setting_language_options">Tùy Chọn Ngôn Ngữ</string>
+    <string name="setting_rate_us">Đánh Giá Chúng Tôi</string>
+    <string name="setting_about">Về Chúng Tôi</string>
+    <string name="setting_share">Chia Sẻ Với Bạn Bè</string>
+    <string name="setting_privacy">Chính Sách Bảo Mật</string>
+
+    <string name="screen_1">Nói thành Văn bản</string>
+    <string name="screen_2">Văn bản thành Văn bản</string>
+
+    <string name="string_home">Trang chủ</string>
+    <string name="string_speak_to_text">Dịch giọng nói</string>
+    <string name="string_text_to_text">Dịch văn bản</string>
+    <string name="string_start">Bắt đầu</string>
+
+    <string name="intro_title_1">Kết nối thế giới</string>
+    <string name="intro_content_1">Dịch văn bản, lời nói và thậm chí cả hình ảnh bay</string>
+
+    <string name="intro_title_2">Hỗ trợ nhiều ngôn ngữ</string>
+    <string name="intro_content_2">Nói và hiểu hầu hết mọi ngôn ngữ</string>
+
+    <string name="intro_title_3">Giao diện thân thiện với người dùng</string>
+    <string name="intro_content_3">Đơn giản, trực quan và dễ điều hướng – ứng dụng của chúng tôi được thiết kế dành cho bạn</string>
+
+    <string name="btn_rate">Đánh giá</string>
+    <string name="btn_exit">Thoát</string>
+
+    <string name="title_rate_0">Bạn có thích ứng dụng này không?</string>
+    <string name="content_rate_0">Hãy cho chúng tôi biết trải nghiệm của bạn</string>
+
+    <string name="title_rate_1_2_3">Ồ, không!</string>
+    <string name="content_rate_1_2_3">Vui lòng cho chúng tôi một số phản hồi</string>
+
+    <string name="title_rate_4_5">Chúng tôi cũng yêu bạn!</string>
+    <string name="content_rate_4_5">Cảm ơn phản hồi của bạn</string>
+    <string name="tap_to_speak_v2">Nhấn để nói</string>
+
+    <string name="string_next">Tiếp theo</string>
+    <string name="string_thank_you_for_rating_the_app">Cảm ơn bạn đã đánh giá các ứng dụng!</string>
+    <string name="language_title">Ngôn ngữ</string>
+
+    <string name="string_translate_for_you_today">Hôm nay tôi có thể dịch gì cho bạn?</string>
+    <string name="title_text_translation">Dịch Văn Bản</string>
+    <string name="title_voice_translation">Dịch Giọng Nói</string>
+    <string name="title_change_language">Thay Đổi Ngôn Ngữ</string>
+    <string name="text_loading">Vui lòng đợi một phút để tải tệp này xuống</string>
+
+
+</resources>

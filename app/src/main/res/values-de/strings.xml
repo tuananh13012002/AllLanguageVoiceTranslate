@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_notify_title">Nachricht</string>
+
+    <string name="app_name_main">Sprich zu Text</string>
+    <string name="splash_title">Diese Aktion kann Werbung enthalten</string>
+
+    <!-- TODO: Entfernen oder ändern Sie diesen Platzhaltertext -->
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="langToTransTitile">Sprache auswählen</string>
+    <string name="langToTransBtnBack">Abbrechen</string>
+    <string name="saved_successfully">Erfolgreich gespeichert!</string>
+    <string name="per_title">Berechtigung</string>
+    <string name="per_content">Die Sprache-zu-Text-Funktion erfordert die Berechtigung zur Verwendung der Kamera und des Ordners des Geräts.</string>
+    <string name="per_storage">Speicher</string>
+    <string name="per_camera">Kamera</string>
+    <string name="per_go">Weiter</string>
+    <string name="text_translate">Übersetzen</string>
+    <string name="title_photo">FOTO</string>
+    <string name="setting_title">Einstellungen</string>
+    <string name="setting_language_options">Sprachoptionen</string>
+    <string name="setting_rate_us">Bewerten Sie uns</string>
+    <string name="setting_about">Über die App</string>
+    <string name="setting_share">Mit Freunden teilen</string>
+    <string name="setting_privacy">Datenschutzrichtlinie</string>
+    <string name="screen_1">Sprache zu Text</string>
+    <string name="screen_2">Text zu Text</string>
+
+    <string name="string_home">Zuhause</string>
+    <string name="string_speak_to_text">Sprachübersetzung</string>
+    <string name="string_text_to_text">Text übersetzen</string>
+    <string name="string_start">Beginn</string>
+
+    <string name="intro_title_1">Die Welt verbinden</string>
+    <string name="intro_content_1">Text, Sprache und sogar Bilder einfach übersetzen</string>
+
+    <string name="intro_title_2">Umfangreiche Sprachunterstützung</string>
+    <string name="intro_content_2">Sprechen und verstehen Sie praktisch jede Sprache</string>
+
+    <string name="intro_title_3">Benutzerfreundliche Oberfläche</string>
+    <string name="intro_content_3">Einfach, intuitiv und leicht zu navigieren – unsere App wurde speziell für Sie entwickelt</string>
+
+    <string name="btn_rate">Preis</string>
+    <string name="btn_exit">Beenden</string>
+
+    <string name="title_rate_0">Gefällt dir die App?</string>
+    <string name="content_rate_0">Teilen Sie uns Ihre Erfahrungen mit</string>
+
+    <string name="title_rate_1_2_3">Oh nein!</string>
+    <string name="content_rate_1_2_3">Bitte geben Sie uns Feedback</string>
+
+    <string name="title_rate_4_5">Wir lieben dich auch!</string>
+    <string name="content_rate_4_5">Vielen Dank für Ihr Feedback</string>
+    <string name="tap_to_speak_v2">Tippen Sie, um zu sprechen</string>
+
+    <string name="string_next">Weiter</string>
+    <string name="string_thank_you_for_rating_the_app">Vielen Dank für die Bewertung der App!</string>
+    <string name="language_title">Sprache</string>
+
+    <string name="string_translate_for_you_today">Qué puedo traducirte hoy?</string>
+    <string name="title_text_translation">Traducción de texto</string>
+    <string name="title_voice_translation">Traducción de voz</string>
+    <string name="title_change_language">Cambiar idioma</string>
+    <string name="text_loading">Bitte warten Sie eine Minute, um die Datei herunterzuladen</string>
+</resources>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F5F8FF">
+
+            <LinearLayout
+                android:id="@+id/main_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_main"
+                android:nestedScrollingEnabled="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/main"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingStart="16dp"
+                        android:paddingTop="30dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="16dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_radius_white"
+                            android:gravity="center"
+                            android:padding="14dp"
+                            android:singleLine="true"
+                            android:text="@string/title_text_translation"
+                            android:textColor="@color/color_main"
+                            android:textSize="14sp"
+                            app:drawableLeftCompat="@drawable/ic_text_in_text" />
+
+                        <TextView
+                            android:id="@+id/btn_voice"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_radius_black"
+                            android:gravity="center"
+                            android:padding="14dp"
+                            android:singleLine="true"
+                            android:text="@string/title_voice_translation"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            app:drawableLeftCompat="@drawable/ic_voice_in_text" />
+
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_text_voice_translate"
+                        android:padding="16dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/viewChooseLang"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/btn_swap_lang"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="@drawable/ic_swap"
+                                android:elevation="1dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:id="@+id/form_lang"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_from_lang_home"
+                                    android:elevation="2dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal"
+                                    android:padding="15dp">
+
+                                    <ImageView
+                                        android:id="@+id/img_lang_from"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/color_united_kingdom" />
+
+                                    <TextView
+                                        android:id="@+id/lang_from"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:drawableEnd="@drawable/ic_up"
+                                        android:paddingEnd="10dp"
+                                        android:singleLine="true"
+                                        android:text="UK"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp" />
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/to_lang"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_to_lang_home"
+                                    android:elevation="2dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal"
+                                    android:padding="15dp"
+                                    android:paddingStart="40dp">
+
+                                    <ImageView
+                                        android:id="@+id/img_to_from"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/color_united_kingdom" />
+
+                                    <TextView
+                                        android:id="@+id/lang_to"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="5dp"
+                                        android:drawableEnd="@drawable/ic_up"
+                                        android:drawableTint="#C3C3C3"
+                                        android:paddingEnd="10dp"
+                                        android:singleLine="true"
+                                        android:text="UK"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp" />
+
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/layoutOutputText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/bg_border_edit_text"
+                            android:padding="12dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/viewChooseLang">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/tv_name_from_lang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="8dp"
+                                android:textColor="@color/color_main"
+                                android:textSize="14sp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <View
+                                android:id="@+id/view_from_lang"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#E4E4E4"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/tv_name_from_lang" />
+
+                            <com.all.language.translate.voice.translator.ui.utils.CustomEdittext
+                                android:id="@+id/idTVInput"
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp"
+                                android:autofillHints=""
+                                android:background="@color/white"
+                                android:contentDescription="@string/app_name"
+                                android:gravity="top|left"
+                                android:inputType="text|textMultiLine|textCapSentences"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="40dp"
+                                android:paddingBottom="40dp"
+                                android:scrollHorizontally="false"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/text_base"
+                                android:textSize="14sp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/view_from_lang"
+                                tools:ignore="LabelFor,RtlHardcoded,RtlSymmetry"
+                                tools:layout_editor_absoluteX="16dp" />
+
+                            <ImageView
+                                android:id="@+id/btnClearEdt"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:background="@drawable/ic_round_close"
+                                android:visibility="gone"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/idTVInput"
+                                tools:ignore="MissingConstraints" />
+
+                            <LinearLayout
+                                android:layout_width="24dp"
+                                android:layout_height="28dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent">
+
+                                <ImageView
+                                    android:id="@+id/copyButton"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/iconamoon_copy_bold"
+                                    android:visibility="gone"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="@+id/idTVOutput"
+                                    tools:ignore="MissingConstraints" />
+                            </LinearLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/outPutView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/bg_border_edit_text"
+                            android:padding="12dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/layoutOutputText">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/tv_name_to_lang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="8dp"
+                                android:textColor="@color/color_main"
+                                android:textSize="14sp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <View
+                                android:id="@+id/view_to_lang"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#E4E4E4"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/tv_name_to_lang" />
+
+                            <EditText
+                                android:id="@+id/idTVOutput"
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp"
+                                android:autofillHints=""
+                                android:background="@color/white"
+                                android:contentDescription="@string/app_name"
+                                android:focusable="false"
+                                android:gravity="top|left"
+                                android:inputType="text|textMultiLine|textCapSentences"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="40dp"
+                                android:paddingBottom="40dp"
+                                android:scrollHorizontally="false"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/text_base"
+                                android:textSize="14sp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/view_to_lang"
+                                tools:ignore="LabelFor,RtlHardcoded,RtlSymmetry"
+                                tools:layout_editor_absoluteX="16dp" />
+
+                            <LinearLayout
+                                android:id="@+id/btn_copy_output"
+                                android:layout_width="wrap_content"
+                                android:layout_height="28dp"
+                                android:visibility="gone"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent">
+
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/iconamoon_copy_bold"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="@+id/idTVOutput"
+                                    tools:ignore="MissingConstraints" />
+                            </LinearLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/tapToTranButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/bg_button_v3"
+                            android:text="@string/text_translate"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/outPutView" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+        <include
+            android:id="@+id/progress"
+            layout="@layout/layout_progress_bar"
+            android:visibility="gone" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</layout>

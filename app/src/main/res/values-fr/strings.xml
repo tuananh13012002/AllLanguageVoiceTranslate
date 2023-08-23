@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_notify_title">Message</string>
+    <string name="app_name_main">Parler en Texte</string>
+    <string name="splash_title">Cette action peut contenir des publicités</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bonjour fragment vide</string>
+    <string name="langToTransTitile">Choisir la langue</string>
+    <string name="langToTransBtnBack">Annuler</string>
+    <string name="saved_successfully">Enregistré avec succès !</string>
+    <string name="per_title">Autorisation</string>
+    <string name="per_content">La conversion de la parole en texte nécessite l\'autorisation d\'utiliser l\'appareil photo et le dossier du appareil.</string>
+    <string name="per_storage">Stockage</string>
+    <string name="per_camera">Appareil photo</string>
+    <string name="per_go">Continuer</string>
+    <string name="text_translate">Traduire</string>
+    <string name="title_photo">PHOTO</string>
+    <string name="setting_title">Réglages</string>
+    <string name="setting_language_options">Options de langue</string>
+    <string name="setting_rate_us">Évaluez-nous</string>
+    <string name="setting_about">À propos de l\'application</string>
+    <string name="setting_share">Partager avec des amis</string>
+    <string name="setting_privacy">Politique de confidentialité</string>
+    <string name="screen_1">Parler en texte</string>
+    <string name="screen_2">Texte à texte</string>
+
+    <string name="string_home">Accueil</string>
+    <string name="string_speak_to_text">Traduction vocale</string>
+    <string name="string_text_to_text">Texte traduit</string>
+    <string name="string_start">Démarrer</string>
+
+    <string name="intro_title_1">Connecter le monde</string>
+    <string name="intro_content_1">Traduire du texte, de la parole et même des images ne fait que voler</string>
+
+    <string name="intro_title_2">Prise en charge étendue des langues</string>
+    <string name="intro_content_2">Parler et comprendre pratiquement n\'importe quelle langue</string>
+
+    <string name="intro_title_3">Interface conviviale</string>
+    <string name="intro_content_3">Simple, intuitive et facile à naviguer - notre application est conçue pour vous</string>
+
+    <string name="btn_rate">Taux</string>
+    <string name="btn_exit">Quitter</string>
+
+    <string name="title_rate_0">Aimez-vous l\'application ?</string>
+    <string name="content_rate_0">Faites-nous part de votre expérience</string>
+
+    <string name="title_rate_1_2_3">Oh, non !</string>
+    <string name="content_rate_1_2_3">Veuillez nous faire part de vos commentaires</string>
+
+    <string name="title_rate_4_5">Nous vous aimons aussi !</string>
+    <string name="content_rate_4_5">Merci pour vos commentaires</string>
+    <string name="tap_to_speak_v2">Appuyez pour parler</string>
+
+    <string name="string_next">Suivant</string>
+    <string name="string_thank_you_for_rating_the_app">Merci d\'avoir évalué l\'application !</string>
+    <string name="language_title">Langue</string>
+
+    <string name="string_translate_for_you_today">Que puis-je traduire pour vous aujourd\'hui ?</string>
+    <string name="title_text_translation">Traduction de texte</string>
+    <string name="title_voice_translation">Traduction vocale</string>
+    <string name="title_change_language">Changer de langue</string>
+    <string name="text_loading">Veuillez patienter une minute pour télécharger le fichier</string>
+</resources>

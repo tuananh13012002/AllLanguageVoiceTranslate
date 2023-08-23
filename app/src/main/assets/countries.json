@@ -1,0 +1,104 @@
+[
+  {
+    "id": 7,
+    "flag": "@drawable/color_unitedkingdom",
+    "name": "English",
+    "code": "en"
+  },
+  {
+    "id": 1,
+    "flag": "@drawable/color_albania",
+    "name": "Albanian",
+    "code": "sq"
+  },
+  {
+    "id": 2,
+    "flag": "@drawable/color_azerbaijan",
+    "name": "Azerbaijani",
+    "code": "az"
+  },
+  {
+    "id": 3,
+    "flag": "@drawable/color_belarus",
+    "name": "Belarusian",
+    "code": "be"
+  },
+  {
+    "id": 4,
+    "flag": "@drawable/color_china",
+    "name": "China (Simplified)",
+    "code": "zh-CN"
+  },
+  {
+    "id": 5,
+    "flag": "@drawable/color_china",
+    "name": "China (Traditional)",
+    "code": "zh-TW"
+  },
+  {
+    "id": 6,
+    "flag": "@drawable/color_czech_republic",
+    "name": "Czech",
+    "code": "cs"
+  },
+  {
+    "id": 8,
+    "flag": "@drawable/color_france",
+    "name": "French",
+    "code": "fr"
+  },
+  {
+    "id": 9,
+    "flag": "@drawable/color_germany",
+    "name": "German",
+    "code": "de"
+  },
+  {
+    "id": 10,
+    "flag": "@drawable/color_greece",
+    "name": "Greek",
+    "code": "el"
+  },
+  {
+    "id": 11,
+    "flag": "@drawable/color_india",
+    "name": "Hindi",
+    "code": "hi"
+  },
+  {
+    "id": 12,
+    "flag": "@drawable/color_italy",
+    "name": "Italian",
+    "code": "it"
+  },
+  {
+    "id": 13,
+    "flag": "@drawable/color_japan",
+    "name": "Japanese",
+    "code": "ja"
+  },
+  {
+    "id": 14,
+    "flag": "@drawable/color_russia",
+    "name": "Russian",
+    "code": "ru"
+  },
+  {
+    "id": 15,
+    "flag": "@drawable/color_spain",
+    "name": "Spanish",
+    "code": "es"
+  },
+  {
+    "id": 16,
+    "flag": "@drawable/color_thailand",
+    "name": "Thai",
+    "code": "th"
+  },
+  {
+    "id": 17,
+    "flag": "@drawable/color_vn",
+    "name": "Vietnamese",
+    "code": "vi"
+  }
+]
